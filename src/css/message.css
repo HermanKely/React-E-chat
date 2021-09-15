@@ -1,0 +1,64 @@
+.grand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Actife{
+    width: 25vw;
+    height: auto;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: black;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    min-height: 90vh;
+    background-color: #0000004b;
+    justify-content: space-between;
+}
+#message2{
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+}
+#allmess{
+    margin: 1%;
+    right: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: teal;
+}
+#allmess2{
+    margin: 1%;
+    right: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(128, 0, 96);
+}
+
+.input{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 75%;
+    bottom: 5px;
+}
+.textin{
+    border-radius: 5px;
+    height: 8vh;
+    width: 50vw;
+}
+.envoyer{
+    padding: 10px 5px 10px 5px;
+    background-color: teal;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+.envoyer:hover{
+    box-shadow: 0px 0px 20px teal;
+    color: teal;
+    background-color: black;
+}
